@@ -247,6 +247,7 @@ p1,p2,p3{
 font-size: 18px;
 font-weight: 400;
 line-height: 30px;
+margin-bottom: 20px;
 }
 .hot-btn{
  color: #FFF;
@@ -259,6 +260,7 @@ gap: 10px;
 border-radius: 8px;
 background: #E55473;
 text-decoration: none;
+
 }
 .main-group{
   width: 1440px;
