@@ -55,52 +55,86 @@ body{
   text-decoration: none;
   padding: 20px 43px;
 }
-.Featured-Flowers-text{
+.Feat-Flowers{
   text-align: center;
+  margin-top: 178px;
 }
-.Feat-title{
-color: #272727;
-font-size: 40px;
-font-weight: 800;
-margin-top: 178px;
-}
+.feat-title{
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
 
-.Feat-description{
+}
+.feat-description{
   color: rgba(39, 39, 39, 0.60);
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  margin-top: 24px;
-}
-.pangwing-image{
-  
+  }
+.pang-container{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  margin-top: 38px;
+  gap: 24px;
 }
-.Featured-Flowers-text{
-  width: 100%;
-  height: 200px;
-  margin-right: 100px;
-}
-.pangwing-1{
-  width: 464px;
-  height: 538px;
+.img0{
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
-  padding: 110px 78px 0 76px;
+  width: 464px;
+  height: 538px;
 }
-.pangwing-2{
+.img00{
   width: 464px;
   height: 538px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(5, 151, 160, 0.15);
-  padding: 110px 78px 0 76px;
 }
-.pink-cintain{
+.img000{
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+
+
+}
+.image01{
+ padding-top: 110px;
+ padding-left: 76px;
+ padding-right: 78px;
+}
+.image02{
+  padding: 117px 47px 51px 47px;
+}
+.image03{
+  padding: 67px 75px 0 75px;
+}
+.pink-container{
   display: flex;
-  justify-content: space-around;
- 
+  justify-content: center;
+  
+  margin-top: 32px;
+}
+p1,p2,p3{
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+  padding: 140px;
+}
+.group-contain{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 320px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin-top: 128px;
+}
+.gr-img1{
+  width: 88px;
+height: 88px;
 }
 .instagram-container{
   text-align: center;
@@ -118,31 +152,27 @@ margin-top: 178px;
   font-weight: 400;
   line-height: 30px;
 }
-.image2-container{
+
+.flower-container{
   display: flex;
-  justify-items: center;
-  margin-top: 48px;
-  align-items: center;
-  margin-left: 300px;
+  justify-content: center;
+  gap: 24px;
+ 
 }
 .flower01{
   width: 342px;
   height: 396px;
-  margin-right: 24px;
+ 
 }
-.flower02{
-  margin-right: 24px;
-}
-.flower03{
-  margin-right: 24px;
-}
+
 .latest-container{
   text-align: center;
   margin-top: 130px;
-  margin-left: 300px;
-  margin-right: 240px;
-  width: 1440px;
   height: 449px;
+  background-repeat: no-repeat;
+}
+.hot-deals{
+  width: 100%;
 }
 .latest{
  padding-top: 115px;  
@@ -204,4 +234,22 @@ margin-top: 178px;
 }
 .shop{
   color: white;
+}
+.hotdeal-continer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(229, 84, 115, 0.05);
+  margin-top: 130px;
+  height: 620px;
+}
+.pangwing08{
+  width: 318px;
+  height: 420px;
+}
+.hot-title{
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+
 }
